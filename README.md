@@ -1,4 +1,4 @@
-🍽️ Kayseri Restaurantly
+🧑‍🍳 Kayseri Restaurantly
 ---
 Kayseri Restaurantly, restoranların menülerini sergileyebileceği, sunduğu hizmetleri tanıtabileceği ve rezervasyon işlemlerini kolayca yönetebileceği modern bir web uygulamasıdır. Admin paneli sayesinde restoran sahipleri içeriklerini güncelleyebilir, müşteri taleplerini yönetebilir ve işletmelerini dijital ortamda daha etkili bir şekilde tanıtabilirler.
 
