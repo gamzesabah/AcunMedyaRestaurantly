@@ -76,7 +76,7 @@ CSRF & XSS Koruması – Web güvenliği önlemleri
 📸 Görseller
 ---
 Ana Sayfa
-<img width="944" alt="1Giriş" src="https://github.com/user-attachments/assets/27d4369b-a48f-4e1a-88d8-6c2dd4adb0a5" />
+<img width="943" alt="mantı girişi" src="https://github.com/user-attachments/assets/af984e77-8c35-4fa5-8193-9ff5770c8c8e" />
 Restoran Hakkında
 <img width="945" alt="1Hakkımda" src="https://github.com/user-attachments/assets/5bc6289b-32fd-4ca0-ad13-e930d0ff8659" />
 Hizmetlerimiz
@@ -96,6 +96,7 @@ Galeri
 Şefler
 <img width="943" alt="1Aşçılar" src="https://github.com/user-attachments/assets/2c035ca6-7233-416f-bc85-6c00d1d5dc58" />
 İletişim
+
 <img width="943" alt="İletişim1" src="https://github.com/user-attachments/assets/1fc87c7a-54ac-4067-aa21-833fd0502ffe" />
 <img width="945" alt="İletişim2" src="https://github.com/user-attachments/assets/455a4c2f-be25-450a-8da0-83877c84e2fa" />
 
