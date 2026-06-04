@@ -1,119 +1,179 @@
-🧑‍🍳 Kayseri Restaurantly
+#  Kayseri Restaurantly
+
+A modern restaurant management and reservation web application developed with ASP.NET MVC and Entity Framework.
+
+The project allows restaurant businesses to manage menus, reservations, events and customer interactions through a dedicated admin panel while providing users with a responsive and user-friendly restaurant experience.
+
 ---
-Kayseri Restaurantly, restoranların menülerini sergileyebileceği, sunduğu hizmetleri tanıtabileceği ve rezervasyon işlemlerini kolayca yönetebileceği modern bir web uygulamasıdır. Admin paneli sayesinde restoran sahipleri içeriklerini güncelleyebilir, müşteri taleplerini yönetebilir ve işletmelerini dijital ortamda daha etkili bir şekilde tanıtabilirler.
 
-📑 Proje Özellikleri
+#  Project Overview
+
+Kayseri Restaurantly is a full-stack restaurant management platform designed to improve restaurant digital presence and simplify reservation management.
+
+The application includes:
+
+* Public restaurant website
+* Admin management panel
+* Reservation system
+* Authentication & authorization
+* Dynamic content management
+
 ---
-⭐ Admin Paneli
 
-Menü öğelerini, hizmetleri, etkinlikleri ve restoran bilgilerini yönetme
+#  Features
 
-Rezervasyon ve müşteri mesajlarını takip etme
+##  Admin Panel
 
-Kullanıcı erişim yetkilerini belirleme
+* Manage menu items, services and events
+* Manage reservations and customer messages
+* Content management system
+* Role-based authorization
+* Secure admin access
 
-⭐ Restoran Kullanıcı Arayüzü
+## 🍴 Restaurant Website
 
-Restoran menüsünü ve hizmetlerini görüntüleme
+* View restaurant menu and services
+* Online reservation system
+* Responsive and modern UI
+* Dynamic content rendering
 
-Online rezervasyon yapabilme
+##  Authentication & Security
 
-Şık ve modern bir kullanıcı arayüzü
+* User authentication & authorization
+* Session & cookie management
+* Role-based access control
+* CSRF & XSS protection
 
-⭐ Kimlik Doğrulama & Yetkilendirme
-
-Kullanıcı giriş/çıkış işlemleri
-
-Admin paneline yalnızca yetkili kullanıcıların erişebilmesi
-
-⭐ Session & Cookie Yönetimi
-
-Kullanıcı tercihlerini ve oturumlarını güvenli bir şekilde yönetme
-
-🚀 Kullanılan Teknolojiler
- ---
-
-⭐ Backend Teknolojileri
-
-ASP.NET MVC – Model-View-Controller mimarisi ile modüler ve ölçeklenebilir bir yapı
-
-Entity Framework (Code First) – Veritabanı modellemesi ve yönetimi
-
-CRUD İşlemleri – Veritabanında ekleme, okuma, güncelleme ve silme işlemleri
-
-LINQ Sorguları – Verileri SQL benzeri sorgular ile yönetme
-
-Stored Procedures & Views – Veritabanı işlemlerini optimize etme
-
-⭐ Veritabanı Yönetimi
-
-Microsoft SQL Server – Güçlü ve ölçeklenebilir bir ilişkisel veritabanı yönetim sistemi
-
-Session & Cookie Yönetimi – Kullanıcı bilgilerini güvenli bir şekilde saklama
-
-⭐ Frontend Teknolojileri
-
-HTML5 & CSS3 – Modern ve kullanıcı dostu arayüzler
-
-Bootstrap – Duyarlı (responsive) ve mobil uyumlu tasarım
-
-JavaScript & jQuery – Dinamik içerikler ve etkileşimli bileşenler
-
-AJAX & Fetch API – Sayfa yeniden yüklenmeden veri alışverişi
-
-Partial View Kullanımı – Tekrar kullanılabilir ve modüler sayfa bileşenleri
-
-⭐ Yapılandırma ve Güvenlik
-
-Razor View Engine – Dinamik HTML sayfaları oluşturma
-
-Layout ve Master Page Kullanımı – Sayfa düzeni ve bileşen yönetimi
-
-Role-Based Authorization – Kullanıcı rollerine göre yetkilendirme
-
-CSRF & XSS Koruması – Web güvenliği önlemleri
-
-📸 Görseller
 ---
-Ana Sayfa
+
+#  Technologies Used
+
+## Backend
+
+* ASP.NET MVC
+* Entity Framework (Code First)
+* SQL Server
+* LINQ
+* Stored Procedures
+* CRUD Operations
+
+## Frontend
+
+* HTML5
+* CSS3
+* Bootstrap
+* JavaScript
+* jQuery
+* AJAX / Fetch API
+* Razor View Engine
+
+## Security & Architecture
+
+* Role-Based Authorization
+* Session & Cookie Management
+* Partial Views
+* Layout Structure
+* MVC Architecture
+
+---
+
+#  Architecture
+
+The project follows the ASP.NET MVC architecture pattern:
+
+```bash id="kk7n8a"
+Controllers → Business Logic → Entity Framework → SQL Server
+```
+
+This architecture improves:
+
+* maintainability
+* modularity
+* separation of concerns
+* scalability
+
+---
+
+#  Project Structure
+
+```bash id="jb3w0l"
+AcunMedyaRestaurantly/
+│
+├── Controllers
+├── Entities
+├── Context
+├── Views
+├── Scripts
+├── Content
+├── App_Start
+├── Migrations
+└── Properties
+```
+
+---
+
+#  Screenshots
+
+## Home Page
+
 <img width="943" alt="mantı girişi" src="https://github.com/user-attachments/assets/af984e77-8c35-4fa5-8193-9ff5770c8c8e" />
-Restoran Hakkında
-<img width="945" alt="1Hakkımda" src="https://github.com/user-attachments/assets/5bc6289b-32fd-4ca0-ad13-e930d0ff8659" />
-Hizmetlerimiz
-<img width="941" alt="1hizmetlerimiz" src="https://github.com/user-attachments/assets/6dba4673-c466-4a66-8deb-97431a6e8d27" />
-Menü
+
+## Menu Page
+
 <img width="947" alt="1Menü" src="https://github.com/user-attachments/assets/2a955c0d-9cb5-4178-b2d1-d34e4551e574" />
-Spesyaller
-<img width="938" alt="1Special" src="https://github.com/user-attachments/assets/aee8f855-0599-4c1b-a783-16302484fb82" />
-Etkinlikler
-<img width="941" alt="1Etkinlikler" src="https://github.com/user-attachments/assets/790c5408-2483-4381-ae4b-e70b0facd320" />
-Rezervasyon
+
+## Reservation System
+
 <img width="940" alt="rezervasyon" src="https://github.com/user-attachments/assets/856c957d-8073-470f-8e4e-0a3d14996b5f" />
-Referanslar
-<img width="943" alt="1Referanslar" src="https://github.com/user-attachments/assets/d5ab2b85-46ed-4e9e-8db2-05dbde7c7a5c" />
-Galeri
-<img width="938" alt="Galeri" src="https://github.com/user-attachments/assets/207af8d1-6bc9-44c7-8f85-8cd401780952" />
-Şefler
-<img width="943" alt="1Aşçılar" src="https://github.com/user-attachments/assets/2c035ca6-7233-416f-bc85-6c00d1d5dc58" />
-İletişim
 
-<img width="943" alt="İletişim1" src="https://github.com/user-attachments/assets/1fc87c7a-54ac-4067-aa21-833fd0502ffe" />
-<img width="945" alt="İletişim2" src="https://github.com/user-attachments/assets/455a4c2f-be25-450a-8da0-83877c84e2fa" />
+## Admin Panel
 
-👤Admin Paneli
----
-Giriş
 <img width="956" alt="Admin PaneliGirişi" src="https://github.com/user-attachments/assets/a4bfe664-9c26-4570-81ac-a610a82b2d96" />
-Spesyaller
-![spesyalleradmin](https://github.com/user-attachments/assets/ce20206f-01ac-4009-bdee-cc6eec1197c4)
-Etkinlikler
-<img width="946" alt="Etkinlikler Admin" src="https://github.com/user-attachments/assets/016d2da5-8cdc-44da-94f9-dc494afe078a" />
-404 Hatası
-![404found](https://github.com/user-attachments/assets/5ea33b38-ad8b-4ef5-a8f2-c0716a7adc0f)
-Rezervasyonlar
+
 <img width="943" alt="Rezervasyonlaradmin" src="https://github.com/user-attachments/assets/1d569e95-b14e-465c-9ac2-5c86ba2a503f" />
 
-🎉Teşekkürler
+> Additional screenshots are available in the repository.
+
 ---
-Bu projeyi geliştirirken sağladıkları değerli bilgi, rehberlik ve destekleri için Buse Nur Demirbaş, Abdullah Kuş ve Murat Yücedağ’a çok teşekkür ederim. 
+
+#  Getting Started
+
+## Clone the repository
+
+```bash id="zndxow"
+git clone <repo-url>
+```
+
+## Restore packages
+
+```bash id="u6lm1x"
+Install-Package
+```
+
+## Run the project
+
+```bash id="0o6qf8"
+Start IIS Express
+```
+
+---
+
+#  Learning Outcomes
+
+Throughout this project, I improved my knowledge in:
+
+* ASP.NET MVC architecture
+* Entity Framework & database management
+* Authentication & authorization
+* Session & cookie management
+* Responsive frontend development
+* Secure web application development
+
+---
+
+#  Developer
+
+Gamze Sabah
+Backend Developer | ASP.NET Core | .NET
+
 
