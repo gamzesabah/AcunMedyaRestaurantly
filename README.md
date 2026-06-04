@@ -30,7 +30,7 @@ The application includes:
 * Role-based authorization
 * Secure admin access
 
-## 🍴 Restaurant Website
+##  Restaurant Website
 
 * View restaurant menu and services
 * Online reservation system
